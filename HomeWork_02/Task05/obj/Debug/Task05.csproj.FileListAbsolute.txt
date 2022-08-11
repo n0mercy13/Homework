@@ -1,0 +1,8 @@
+C:\Users\n0mercy\source\repos\HomeWork02\Task05\bin\Debug\Task05.exe.config
+C:\Users\n0mercy\source\repos\HomeWork02\Task05\bin\Debug\Task05.exe
+C:\Users\n0mercy\source\repos\HomeWork02\Task05\bin\Debug\Task05.pdb
+C:\Users\n0mercy\source\repos\HomeWork02\Task05\obj\Debug\Task05.csproj.AssemblyReference.cache
+C:\Users\n0mercy\source\repos\HomeWork02\Task05\obj\Debug\Task05.csproj.SuggestedBindingRedirects.cache
+C:\Users\n0mercy\source\repos\HomeWork02\Task05\obj\Debug\Task05.csproj.CoreCompileInputs.cache
+C:\Users\n0mercy\source\repos\HomeWork02\Task05\obj\Debug\Task05.exe
+C:\Users\n0mercy\source\repos\HomeWork02\Task05\obj\Debug\Task05.pdb

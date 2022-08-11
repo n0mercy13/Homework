@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< Updated upstream
   "dgSpecHash": "S6dUu2s9wBhKHDFoNDP5kVEVcMPk0iCzX+I2JDaISK0m8iP0zollRyhlqdP6io/CuNQmlmCLv0/vje4JbHKupw==",
   "success": true,
   "projectFilePath": "C:\\Users\\n0mercy\\source\\repos\\Homework_03\\UnitTests\\UnitTests.csproj",
+=======
+  "dgSpecHash": "Mf1Sps8fd6V+hfQKLaMi2CkzQBA78y3b4yLInyQ49nAOyB+ffYK+897FEEd4Bs8H5DeyFrq+XsL8qhEcddor1Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\n0mercy\\source\\Git\\Homework\\Homework_03\\UnitTests\\UnitTests.csproj",
+>>>>>>> Stashed changes
   "expectedPackageFiles": [
     "C:\\Users\\n0mercy\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\n0mercy\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",

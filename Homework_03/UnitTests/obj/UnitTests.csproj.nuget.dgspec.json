@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< Updated upstream
     "C:\\Users\\n0mercy\\source\\repos\\Homework_03\\UnitTests\\UnitTests.csproj": {}
   },
   "projects": {
@@ -9,6 +10,16 @@
         "projectUniqueName": "C:\\Users\\n0mercy\\source\\repos\\Homework_03\\Homework.Utility\\Homework.Utility.csproj",
         "projectName": "Homework.Utility",
         "projectPath": "C:\\Users\\n0mercy\\source\\repos\\Homework_03\\Homework.Utility\\Homework.Utility.csproj",
+=======
+    "C:\\Users\\n0mercy\\source\\Git\\Homework\\Homework_03\\UnitTests\\UnitTests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\n0mercy\\source\\Git\\Homework\\Homework_03\\Homework.Utility\\Homework.Utility.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\n0mercy\\source\\Git\\Homework\\Homework_03\\Homework.Utility\\Homework.Utility.csproj",
+        "projectName": "Homework.Utility",
+        "projectPath": "C:\\Users\\n0mercy\\source\\Git\\Homework\\Homework_03\\Homework.Utility\\Homework.Utility.csproj",
+>>>>>>> Stashed changes
         "frameworks": {
           "net48": {
             "projectReferences": {}
@@ -19,6 +30,7 @@
         "net48": {}
       }
     },
+<<<<<<< Updated upstream
     "C:\\Users\\n0mercy\\source\\repos\\Homework_03\\Homework_03\\Homework_03.csproj": {
       "restore": {
         "projectUniqueName": "C:\\Users\\n0mercy\\source\\repos\\Homework_03\\Homework_03\\Homework_03.csproj",
@@ -29,6 +41,18 @@
             "projectReferences": {
               "C:\\Users\\n0mercy\\source\\repos\\Homework_03\\Homework.Utility\\Homework.Utility.csproj": {
                 "projectPath": "C:\\Users\\n0mercy\\source\\repos\\Homework_03\\Homework.Utility\\Homework.Utility.csproj"
+=======
+    "C:\\Users\\n0mercy\\source\\Git\\Homework\\Homework_03\\Homework_03\\Homework_03.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\n0mercy\\source\\Git\\Homework\\Homework_03\\Homework_03\\Homework_03.csproj",
+        "projectName": "Homework_03",
+        "projectPath": "C:\\Users\\n0mercy\\source\\Git\\Homework\\Homework_03\\Homework_03\\Homework_03.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Users\\n0mercy\\source\\Git\\Homework\\Homework_03\\Homework.Utility\\Homework.Utility.csproj": {
+                "projectPath": "C:\\Users\\n0mercy\\source\\Git\\Homework\\Homework_03\\Homework.Utility\\Homework.Utility.csproj"
+>>>>>>> Stashed changes
               }
             }
           }
@@ -38,6 +62,7 @@
         "net48": {}
       }
     },
+<<<<<<< Updated upstream
     "C:\\Users\\n0mercy\\source\\repos\\Homework_03\\UnitTests\\UnitTests.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -46,6 +71,16 @@
         "projectPath": "C:\\Users\\n0mercy\\source\\repos\\Homework_03\\UnitTests\\UnitTests.csproj",
         "packagesPath": "C:\\Users\\n0mercy\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\n0mercy\\source\\repos\\Homework_03\\UnitTests\\obj\\",
+=======
+    "C:\\Users\\n0mercy\\source\\Git\\Homework\\Homework_03\\UnitTests\\UnitTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\n0mercy\\source\\Git\\Homework\\Homework_03\\UnitTests\\UnitTests.csproj",
+        "projectName": "UnitTests",
+        "projectPath": "C:\\Users\\n0mercy\\source\\Git\\Homework\\Homework_03\\UnitTests\\UnitTests.csproj",
+        "packagesPath": "C:\\Users\\n0mercy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\n0mercy\\source\\Git\\Homework\\Homework_03\\UnitTests\\obj\\",
+>>>>>>> Stashed changes
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -66,11 +101,19 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
+<<<<<<< Updated upstream
               "C:\\Users\\n0mercy\\source\\repos\\Homework_03\\Homework.Utility\\Homework.Utility.csproj": {
                 "projectPath": "C:\\Users\\n0mercy\\source\\repos\\Homework_03\\Homework.Utility\\Homework.Utility.csproj"
               },
               "C:\\Users\\n0mercy\\source\\repos\\Homework_03\\Homework_03\\Homework_03.csproj": {
                 "projectPath": "C:\\Users\\n0mercy\\source\\repos\\Homework_03\\Homework_03\\Homework_03.csproj"
+=======
+              "C:\\Users\\n0mercy\\source\\Git\\Homework\\Homework_03\\Homework.Utility\\Homework.Utility.csproj": {
+                "projectPath": "C:\\Users\\n0mercy\\source\\Git\\Homework\\Homework_03\\Homework.Utility\\Homework.Utility.csproj"
+              },
+              "C:\\Users\\n0mercy\\source\\Git\\Homework\\Homework_03\\Homework_03\\Homework_03.csproj": {
+                "projectPath": "C:\\Users\\n0mercy\\source\\Git\\Homework\\Homework_03\\Homework_03\\Homework_03.csproj"
+>>>>>>> Stashed changes
               }
             }
           }

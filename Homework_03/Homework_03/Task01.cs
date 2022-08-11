@@ -27,8 +27,12 @@ namespace Homework_03
             num1 = DifineComplexNumber();
             num2 = DifineComplexNumber();
             Complex numSub = num2 - num1;
+<<<<<<< Updated upstream
             Console.WriteLine($"({num2}) - ({num1}) = {numSub}{Environment.NewLine}");
             
+=======
+            Console.WriteLine($"({num2}) - ({num1}) = {numSub}{Environment.NewLine}");            
+>>>>>>> Stashed changes
         }
 
         private static Complex DifineComplexNumber()
@@ -241,6 +245,7 @@ namespace Homework_03
         /// </summary>
         /// <param name="num">Complex number to compate with</param>
         /// <returns>True if numbers equal, otherwise False</returns>
+<<<<<<< Updated upstream
         public bool Equals(ComplexNumber num)
         {
             return this.Re == num.Re && this.Im == num.Im;
@@ -276,6 +281,13 @@ namespace Homework_03
         {
             return (number - (int)number) == 0;
         }
+=======
+        public bool Equals(ComplexNumber num) => this.Re == num.Re 
+                                              && this.Im == num.Im;        
+
+        public override string ToString() => $"{(Re >= 0 ? string.Empty : "- ")}{Math.Abs(Re):F2} " +
+                                             $"{(Im >= 0 ? "+" : "-")} {Math.Abs(Im):F2}i"; 
+>>>>>>> Stashed changes
     }
     #endregion
 }
