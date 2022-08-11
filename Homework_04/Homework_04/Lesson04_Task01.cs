@@ -146,6 +146,7 @@ namespace Homework_04
         public int Sum => GetSum();
         public int MaxCount => GetCountOfMaximumElements();
         public int Maximum => GetMaximum();
+        public int this[int index] => _array[index];
 
         public ArrayHandler(int initialNumber, int loopStep, int numberOfElements)
         {
