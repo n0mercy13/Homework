@@ -1,3 +1,7 @@
 is_global = true
 build_property.RootNamespace = UnitTests
+<<<<<<< Updated upstream
 build_property.ProjectDir = C:\Users\n0mercy\source\repos\Homework_03\UnitTests\
+=======
+build_property.ProjectDir = C:\Users\n0mercy\source\Git\Homework\Homework_03\UnitTests\
+>>>>>>> Stashed changes
