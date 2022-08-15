@@ -82,20 +82,12 @@ namespace UnitTests
         [TestMethod]
         public void ToStringTest()
         {
-<<<<<<< Updated upstream
-            Assert.AreEqual(num6.ToString(), "6 - 12i");
-            Assert.AreEqual(num1.ToString(), "0 + 0i");
-            Assert.AreEqual(num3.ToString(), "- 5 + 0i");
-            Assert.AreEqual(num5.ToString(), "- 3 - 7i");
-=======
             Assert.AreEqual(num6.ToString(), "6,00 - 12,00i");
             Assert.AreEqual(num1.ToString(), "0,00 + 0,00i");
             Assert.AreEqual(num3.ToString(), "- 5,00 + 0,00i");
             Assert.AreEqual(num5.ToString(), "- 3,00 - 7,00i");
->>>>>>> Stashed changes
             Assert.AreEqual(num8.ToString(), "1,20 + 12,70i");
             Assert.AreEqual(num9.ToString(), "- 2,50 - 16,60i");
-
         }
 
         [TestMethod]
@@ -115,11 +107,7 @@ namespace UnitTests
             var num = new ComplexNumber();
             Assert.AreEqual(0, num.Re);
             Assert.AreEqual(0, num.Im);
-<<<<<<< Updated upstream
-            Assert.AreEqual(num.ToString(), "0 + 0i");
-=======
             Assert.AreEqual(num.ToString(), "0,00 + 0,00i");
->>>>>>> Stashed changes
         }
 
         [TestMethod]
