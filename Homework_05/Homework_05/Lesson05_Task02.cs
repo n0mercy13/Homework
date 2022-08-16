@@ -78,6 +78,10 @@ namespace Homework_05
         private static Random _random = new Random();
         private static StringBuilder _message = new StringBuilder();
         private static Dictionary<string, int> _dictonary = new Dictionary<string, int>();
+        private static readonly string[] _separators = new string[]
+        {
+            " ", "/", ".", ":", ";", ",",
+        };
         private static List<string> _poolOfwords = new List<string>()
         {
             "good", "excellent", "superb", "fantastic", "awesome",
@@ -94,7 +98,7 @@ namespace Homework_05
         /// <returns>Returns string with maximum lenght of words</returns>
         public static string OutputSmallWords(string message, int wordLength)
         {
-            string[] words = message.Split(" ");
+            string[] words = message.Split(_separators,StringSplitOptions.RemoveEmptyEntries);
             List<string> outputWords = new List<string>();
 
             foreach(string word in words)
@@ -112,7 +116,7 @@ namespace Homework_05
         /// <returns>String without words ending on given char</returns>
         public static string DeleteWordsEndingOnChar(string message, char endChar)
         {
-            string[] words = message.Split(' ');
+            string[] words = message.Split(_separators,StringSplitOptions.RemoveEmptyEntries);
             List<string> outputWords = new List<string>();
 
             foreach (string word in words)
@@ -129,7 +133,7 @@ namespace Homework_05
         /// <returns>First longest word in string</returns>
         public static string FindTheLongestWord(string message)
         {
-            string[] words = message.Split(' ');
+            string[] words = message.Split(_separators,StringSplitOptions.RemoveEmptyEntries);
             string theLongestWord = words[0];            
 
             for (int i = 1; i < words.Length; i++)            
@@ -172,7 +176,7 @@ namespace Homework_05
         /// <param name="message">Message to check</param>
         public static void PrintOutHowManyGivenWordsInMessage(List<string> wordsToCheck, string message)
         {            
-            string[] words = message.Split(' ');
+            string[] words = message.Split(_separators,StringSplitOptions.RemoveEmptyEntries);
             _dictonary.Clear();
 
             foreach (string word in wordsToCheck)

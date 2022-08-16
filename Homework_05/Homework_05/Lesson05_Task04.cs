@@ -13,7 +13,7 @@ namespace Homework_05
         public static void RunTask04()
         {
             List<string> worstStudents = GetWorstStudents();
-            Console.WriteLine("Ученики с наихудшими оценками:");
+            Console.WriteLine("Ученики с худшими оценками:");
             foreach (string student in worstStudents)
                 Console.WriteLine(student);
         }

@@ -12,7 +12,7 @@ namespace Homework_05
         private static List<string> _wordsPool = new List<string>()
         {
             "Apollo", "Hestia", "Hades", "Aphrodite", "Artemis", "Dionysos",
-            "Zeus", "Hera", "Ares", "Athene", "Hermes", "Poseidon", "Demeter",
+            "Zeus", "Ares", "Athene", "Hermes", "Poseidon", "Demeter",
         };
 
         public static void RunTask03()

@@ -15,7 +15,7 @@ namespace Homework_05
             }
             while (!IsLoginCorrect(_login));
 
-            Console.WriteLine($"You new login is '{_login}'");
+            Console.WriteLine($"Welcome. You new login is '{_login}'");
         }
 
         #region Task01 methods

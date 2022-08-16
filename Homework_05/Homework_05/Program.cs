@@ -6,9 +6,7 @@ namespace Homework_05
 {
     internal class Program
     {
-        static void Main(string[] args)
-        {
-            List<Action> tasks = new List<Action>()
+        private static List<Action> _tasks = new List<Action>()
             {
                 Lesson05_Task01.RunTask01,
                 Lesson05_Task02.RunTask02,
@@ -16,7 +14,9 @@ namespace Homework_05
                 Lesson05_Task04.RunTask04,
             };
 
-            new HomeworkAssist(5, tasks);
+        static void Main(string[] args)
+        {
+            new HomeworkAssist(5, _tasks);
         }
     }
 }
