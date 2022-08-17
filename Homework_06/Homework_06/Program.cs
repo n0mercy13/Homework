@@ -11,6 +11,7 @@ namespace Homework_06
         {
             Lesson06_Task01.RunTask01,
             Lesson06_Task02.RunTask02,
+            Lesson06_Task03.RunTask03,
         };
 
         static void Main(string[] args)

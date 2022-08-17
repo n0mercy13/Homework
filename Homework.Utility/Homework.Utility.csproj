@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ArrayAssist.cs" />
+    <Compile Include="FileAssist.cs" />
     <Compile Include="OutputAssist.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
