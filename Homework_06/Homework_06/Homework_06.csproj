@@ -9,4 +9,10 @@
     <ProjectReference Include="..\..\Homework.Utility\Homework.Utility.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="students.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
