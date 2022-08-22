@@ -19,22 +19,22 @@ namespace Homework_06
             CountMasters();
             CountStudentsFrom18To20();
             SortStudentsByAge();
-            SortStudentsByAgeAndCourse();
+            SortStudentsByCourseAndAge();
         }
 
         #region Task03New methods
 
-        private static void SortStudentsByAgeAndCourse()
+        private static void SortStudentsByCourseAndAge()
         {
             var studentsList = _students
-                .OrderBy(student => student.Age)
-                .ThenBy(student => student.Course);
+                .OrderBy(student => student.Course)
+                .ThenBy(student => student.Age);
 
             int index = 1;
             foreach (var student in studentsList)
             {
                 Console.WriteLine($"#{index++} {student.FamilyName} " +
-                    $"{student.Name} - age of {student.Age} years old - course: {student.Course}");
+                    $"{student.Name} - course: {student.Course} - age of {student.Age} years old");
             }
             Console.WriteLine();
         }
