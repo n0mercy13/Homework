@@ -23,9 +23,9 @@ namespace Lesson07_Task02
             buttonPlayRestart.Text = "Restart";
         }
 
-        public void UpdateInfoLabel(string comment)
+        public void UpdateInfoLabel(int number)
         {
-            labelInfo.Text = comment;
+            labelInfo.Text = Program.GuessNumber.PrintComments(number);
         }
 
         public void UpdateTurnLabel(int turn)

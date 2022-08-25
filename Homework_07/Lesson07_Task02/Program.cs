@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.Linq;
 
 namespace Lesson07_Task02
 {
     internal static class Program
     {
-        private static int _turns = 0;
-        private static string _comment = string.Empty;
+        private static int _turns = 0;       
 
         public static FormMain FormMain { get; private set; }
         public static FormInput FormInput { get; private set; }
@@ -35,12 +35,10 @@ namespace Lesson07_Task02
         {
             _turns++;
 
-            if (GuessNumber.CheckNumberAndGetComments(number, out _comment))
-                GameFinished();
+            UpdateUI(number);
 
-            FormMain.UpdateInfoLabel(_comment);
-            FormMain.UpdateNumberLabel(number);
-            FormMain.UpdateTurnLabel(_turns);
+            if (GuessNumber.IsGameOver(number))
+                GameFinished();            
         }
 
         private static void GameFinished()
@@ -54,6 +52,13 @@ namespace Lesson07_Task02
         {
             _turns = 0;
             FormInput.ShowDialog();
+        }
+
+        public static void UpdateUI(int number)
+        {
+            FormMain.UpdateInfoLabel(number);
+            FormMain.UpdateNumberLabel(number);
+            FormMain.UpdateTurnLabel(_turns);
         }
     }
 }

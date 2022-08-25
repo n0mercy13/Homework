@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Xml.Linq;
 
 namespace Lesson07_Task02
 {
@@ -28,25 +29,24 @@ namespace Lesson07_Task02
             _numberToGuess = _random.Next(MIN, MAX + 1);
         }
 
-        public bool CheckNumberAndGetComments(int numberToCheck, out string comments)
+        public bool IsGameOver(int number) => _numberToGuess == number;        
+
+        private string GetRandomInterjection() => _interjections[_random.Next(_interjections.Length)];
+
+        public string PrintComments(int number)
         {
-            if(numberToCheck < _numberToGuess)
+            if (number < _numberToGuess)
             {
-                comments = $"{GetRandomInterjection()}, the number that I think of is MORE";
-                return false;
+                return $"{GetRandomInterjection()}, the number that I think of is MORE";               
             }
-            else if(numberToCheck > _numberToGuess)
+            else if (number > _numberToGuess)
             {
-                comments = $"{GetRandomInterjection()}, the number that I think of is LESS";
-                return false;
+                return $"{GetRandomInterjection()}, the number that I think of is LESS";                
             }
             else
             {
-                comments = "Amazing, that's the right number!";
-                return true;
+                return "Amazing, that's the right number!";                
             }
         }
-
-        private string GetRandomInterjection() => _interjections[_random.Next(_interjections.Length)];
     }
 }
