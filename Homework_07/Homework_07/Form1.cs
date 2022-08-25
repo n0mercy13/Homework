@@ -33,7 +33,7 @@ namespace Task01
 
         private void SetGoalMessage()
         {
-            labelNumberToReach.Text = $"Try to get number {_doubler.GoalNumber}";
+            labelNumberToReach.Text = $"Try to get number {_doubler.GoalNumber} in {_doubler.MinTurns} turns";
         }
 
         private void SetGameOverMessage()

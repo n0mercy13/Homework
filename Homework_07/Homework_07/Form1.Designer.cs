@@ -92,9 +92,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(12, 98);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(114, 25);
+            this.label1.Size = new System.Drawing.Size(125, 25);
             this.label1.TabIndex = 5;
             this.label1.Text = "Current Turn:";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -113,15 +114,17 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.SystemColors.Control;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label2.Location = new System.Drawing.Point(12, 18);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(81, 25);
+            this.label2.Size = new System.Drawing.Size(87, 25);
             this.label2.TabIndex = 7;
             this.label2.Text = "Number:";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // labelNumberToReach
             // 
+            this.labelNumberToReach.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelNumberToReach.Location = new System.Drawing.Point(12, 190);
             this.labelNumberToReach.Name = "labelNumberToReach";
             this.labelNumberToReach.Size = new System.Drawing.Size(291, 38);
@@ -144,6 +147,7 @@
             this.Controls.Add(this.buttonPlusOne);
             this.Controls.Add(this.labelCurrentNumber);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Doubler";
             this.ResumeLayout(false);
             this.PerformLayout();
