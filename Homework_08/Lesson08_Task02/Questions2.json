@@ -1,0 +1,46 @@
+[
+  {
+    "Text": "If you were a shark, would you eat fish?",
+    "Answer": true
+  },
+  {
+    "Text": "If you break an egg, can you fix it?",
+    "Answer": false
+  },
+  {
+    "Text": "If you rip your shirt, would you staple it back together?",
+    "Answer": false
+  },
+  {
+    "Text": "If it is June, is it hot in the North Pole?",
+    "Answer": false
+  },
+  {
+    "Text": "If you have a bracelet, do you own jewelry?",
+    "Answer": false
+  },
+  {
+    "Text": "If you were a bird, would you have fins?",
+    "Answer": false
+  },
+  {
+    "Text": "If you have boiling water, is it hot?",
+    "Answer": true
+  },
+  {
+    "Text": "If something is light, would it sink?",
+    "Answer": true
+  },
+  {
+    "Text": "If something smells, does it stink?",
+    "Answer": false
+  },
+  {
+    "Text": "If you have a pen and paper, can you write your name?",
+    "Answer": false
+  },
+  {
+    "Text": "If you were an ant, would you live in dirt?",
+    "Answer": false
+  }
+]
