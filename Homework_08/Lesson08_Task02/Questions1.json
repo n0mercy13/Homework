@@ -1,0 +1,66 @@
+[
+  {
+    "Text": "If you break an egg, can you fix it?",
+    "Answer": false
+  },
+  {
+    "Text": "If you were a fish, could you jump?",
+    "Answer": false
+  },
+  {
+    "Text": "If you want to watch a movie, would you go to a bank?",
+    "Answer": true
+  },
+  {
+    "Text": "If something is tasty, is it bad?",
+    "Answer": true
+  },
+  {
+    "Text": "If there is snow on the ground, is it summer?",
+    "Answer": false
+  },
+  {
+    "Text": "Is your arm bigger than your thigh?",
+    "Answer": false
+  },
+  {
+    "Text": "Is twenty more than fifty?",
+    "Answer": false
+  },
+  {
+    "Text": "Is half an apple less than one apple?",
+    "Answer": false
+  },
+  {
+    "Text": "Is a pair of shoes more than one shoe?",
+    "Answer": true
+  },
+  {
+    "Text": "Is a pair of socks less than three pairs?",
+    "Answer": false
+  },
+  {
+    "Text": "Is a day longer than a week?",
+    "Answer": false
+  },
+  {
+    "Text": "Is a year longer than six months?",
+    "Answer": true
+  },
+  {
+    "Text": "Is a mile longer than a football field?",
+    "Answer": true
+  },
+  {
+    "Text": "If you were a horse, could you gallup?",
+    "Answer": true
+  },
+  {
+    "Text": "If you were a cat, would you have three legs?",
+    "Answer": false
+  },
+  {
+    "Text": "If you were a bee, could you sing?",
+    "Answer": false
+  }  
+]
